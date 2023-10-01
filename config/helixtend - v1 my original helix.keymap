@@ -2,8 +2,6 @@
  * Copyright (c) 2020 The ZMK Contributors
  *
  * SPDX-License-Identifier: MIT
- *
- * helixtend - v1.1 - try adding only 1 additional column
  */
 
 /* balex version 
@@ -56,11 +54,11 @@ As such, those are in use within the default layer at this time.*/
 
                      label = "Qwerty";
                      bindings = <
-&kp BACKSLASH	&kp ESC	&kp N1	&kp N2	&kp N3	&kp N4	&kp N5				&kp N6	&kp N7	&kp N8	&kp N9	&kp N0	&kp MINUS
-&none	&kp TAB	&kp Q	&kp W	&kp E	&kp R	&kp T				&kp Y	&kp U	&kp I	&kp O	&kp P	&kp EQUAL
-&none	&kp CAPS	&kp A	&kp S	&kp D	&kp F	&kp G				&kp H	&kp J	&kp K	&kp L	&kp SEMICOLON	&kp APOSTROPHE
-&none	&kp LSHFT	&kp Z	&kp X	&kp C	&kp V	&kp B	&kp LA(LSHFT)		&kp LEFT_BRACKET	&kp N	&kp M	&kp COMMA	&kp DOT	&kp SLASH	&kp RSHFT
-&none	&kp LCTRL	&kp LWIN	&mo_tog 3 3	&kp LALT	&mo_tog 2 2	&kp ENTER	&kp BACKSPACE		&kp DEL	&kp SPACE	&mo 1	&kp LEFT	&kp UP	&kp DOWN	&kp RIGHT
+&kp ESC	&kp N1	&kp N2	&kp N3	&kp N4	&kp N5				&kp N6	&kp N7	&kp N8	&kp N9	&kp N0	&kp MINUS
+&kp TAB	&kp Q	&kp W	&kp E	&kp R	&kp T				&kp Y	&kp U	&kp I	&kp O	&kp P	&kp EQUAL
+&kp CAPS	&kp A	&kp S	&kp D	&kp F	&kp G				&kp H	&kp J	&kp K	&kp L	&kp SEMICOLON	&kp APOSTROPHE
+&kp LSHFT	&kp Z	&kp X	&kp C	&kp V	&kp B	&kp LA(LSHFT)		&kp LEFT_BRACKET	&kp N	&kp M	&kp COMMA	&kp DOT	&kp SLASH	&kp RSHFT
+&kp LCTRL	&kp LWIN	&mo_tog 3 3	&kp LALT	&mo_tog 2 2	&kp ENTER	&kp BACKSPACE		&kp DEL	&kp SPACE	&mo 1	&kp LEFT	&kp UP	&kp DOWN	&kp RIGHT
                      >;
               };
 
@@ -74,11 +72,11 @@ As such, those are in use within the default layer at this time.*/
 
                      label = "Func";
                      bindings = <
-&trans	&trans	&kp F1	&kp F2	&kp F3	&kp F4	&kp F5				&kp F6	&kp F7	&kp F8	&kp F9	&kp F10	&trans
-&trans	&trans	&kp F11	&kp F12	&none	&none	&none				&none	&none	&none	&none	&kp C_PLAY_PAUSE	&trans
-&trans	&trans	&bt BT_SEL 0	&bt BT_SEL 1	&bt BT_SEL 2	&bt BT_SEL 3	&none				&none	&none	&kp C_VOL_UP	&none	&none	&trans
-&trans	&trans	&bt BT_CLR	&kp PSCRN     &kp LC(C)	&kp LC(V)	&none	&none		&none	&none	&kp C_PREV	&kp C_VOL_DN	&kp C_NEXT	&trans	&trans
-&trans	&trans	&trans	&trans	&trans	&trans	&trans	&trans		&trans	&trans	&trans	&kp BACKSLASH	&trans	&trans	&trans
+&trans	&kp F1	&kp F2	&kp F3	&kp F4	&kp F5				&kp F6	&kp F7	&kp F8	&kp F9	&kp F10	&trans
+&trans	&kp F11	&kp F12	&none	&none	&none				&none	&none	&none	&none	&kp C_PLAY_PAUSE	&trans
+&trans	&bt BT_SEL 0	&bt BT_SEL 1	&bt BT_SEL 2	&bt BT_SEL 3	&none				&none	&none	&kp C_VOL_UP	&none	&none	&trans
+&trans	&bt BT_CLR	&kp PSCRN     &kp LC(C)	&kp LC(V)	&none	&none		&none	&none	&kp C_PREV	&kp C_VOL_DN	&kp C_NEXT	&trans	&trans
+&trans	&trans	&trans	&trans	&trans	&trans	&trans		&trans	&trans	&trans	&kp BACKSLASH	&trans	&trans	&trans
                      >;
               };
               raise_layer {
@@ -91,11 +89,11 @@ As such, those are in use within the default layer at this time.*/
 
                     label = "Navi";
                      bindings = <
-&trans	&trans	&trans	&trans	&trans	&trans	&trans				&none	&kp INS	&kp HOME	&kp PG_UP	&none	&trans
-&trans	&trans	&trans	&trans	&trans	&trans	&trans				&none	&kp DEL	&kp END	&kp PG_DN	&none	&trans
-&trans	&trans	&trans	&trans	&trans	&trans	&trans				&none	&none	&kp UP	&none	&none	&trans
-&trans	&trans	&trans	&trans	&trans	&trans	&trans	&trans		&trans	&trans	&kp LEFT	&kp DOWN	&kp RIGHT	&kp RCTRL	&trans
-&trans	&trans	&trans	&trans	&trans	&trans	&trans	&trans		&trans	&trans	&none	&trans	&trans	&trans	&trans
+&trans	&trans	&trans	&trans	&trans	&trans				&none	&kp INS	&kp HOME	&kp PG_UP	&none	&trans
+&trans	&trans	&trans	&trans	&trans	&trans				&none	&kp DEL	&kp END	&kp PG_DN	&none	&trans
+&trans	&trans	&trans	&trans	&trans	&trans				&none	&none	&kp UP	&none	&none	&trans
+&trans	&trans	&trans	&trans	&trans	&trans	&trans		&trans	&trans	&kp LEFT	&kp DOWN	&kp RIGHT	&kp RCTRL	&trans
+&trans	&trans	&trans	&trans	&trans	&trans	&trans		&trans	&trans	&none	&trans	&trans	&trans	&trans
                      >;
               };
               adjust_layer {
@@ -108,11 +106,11 @@ As such, those are in use within the default layer at this time.*/
 
                      label = "NumPad";
                      bindings = <
-&trans	&trans	&trans	&trans	&trans	&trans	&trans				&none	&kp GRAVE	&kp KP_MULTIPLY	&kp LPAR	&kp RPAR	&trans
-&trans	&trans	&trans	&trans	&trans	&trans	&trans				&none	&kp KP_N7	&kp KP_N8	&kp KP_N9	&none	&kp KP_PLUS
-&trans	&trans	&trans	&trans	&trans	&trans	&trans				&none	&kp KP_N4	&kp KP_N5	&kp KP_N6	&kp COLON	&kp ENTER
-&trans	&trans	&trans	&trans	&trans	&trans	&trans	&trans		&kp LEFT_BRACKET	&kp RIGHT_BRACKET	&kp KP_N1	&kp KP_N2	&kp KP_N3	&kp KP_DIVIDE	&trans
-&trans	&trans	&trans	&trans	&trans	&trans	&trans	&trans		&trans	&kp KP_N0	&kp KP_DOT	&trans	&trans	&trans	&trans
+&trans	&trans	&trans	&trans	&trans	&trans				&none	&kp GRAVE	&kp KP_MULTIPLY	&kp LPAR	&kp RPAR	&trans
+&trans	&trans	&trans	&trans	&trans	&trans				&none	&kp KP_N7	&kp KP_N8	&kp KP_N9	&none	&kp KP_PLUS
+&trans	&trans	&trans	&trans	&trans	&trans				&none	&kp KP_N4	&kp KP_N5	&kp KP_N6	&kp COLON	&kp ENTER
+&trans	&trans	&trans	&trans	&trans	&trans	&trans		&kp LEFT_BRACKET	&kp RIGHT_BRACKET	&kp KP_N1	&kp KP_N2	&kp KP_N3	&kp KP_DIVIDE	&trans
+&trans	&trans	&trans	&trans	&trans	&trans	&trans		&trans	&kp KP_N0	&kp KP_DOT	&trans	&trans	&trans	&trans
                      >;
               };
        };

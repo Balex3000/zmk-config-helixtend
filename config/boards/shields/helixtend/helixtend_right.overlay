@@ -2,12 +2,14 @@
  * Copyright (c) 2020 The ZMK Contributors
  *
  * SPDX-License-Identifier: MIT
+ *
+ * helixtend - changed col-offset from 7 to 8
  */
 
 #include "helixtend.dtsi"
 
 &default_transform {
-	col-offset = <7>;
+	col-offset = <8>;
 };
 
 &kscan0 {
