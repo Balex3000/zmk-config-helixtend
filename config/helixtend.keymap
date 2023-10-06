@@ -57,10 +57,10 @@ As such, those are in use within the default layer at this time.*/
                      label = "Qwerty";
                      bindings = <
 &kp BACKSLASH	&kp ESC	&kp N1	&kp N2	&kp N3	&kp N4	&kp N5				&kp N6	&kp N7	&kp N8	&kp N9	&kp N0	&kp MINUS
-&none	&kp TAB	&kp Q	&kp W	&kp E	&kp R	&kp T				&kp Y	&kp U	&kp I	&kp O	&kp P	&kp EQUAL
-&none	&kp CAPS	&kp A	&kp S	&kp D	&kp F	&kp G				&kp H	&kp J	&kp K	&kp L	&kp SEMICOLON	&kp APOSTROPHE
-&none	&kp LSHFT	&kp Z	&kp X	&kp C	&kp V	&kp B	&kp LA(LSHFT)		&kp LEFT_BRACKET	&kp N	&kp M	&kp COMMA	&kp DOT	&kp SLASH	&kp RSHFT
-&none	&kp LCTRL	&kp LWIN	&mo_tog 3 3	&kp LALT	&mo_tog 2 2	&kp ENTER	&kp BACKSPACE		&kp DEL	&kp SPACE	&mo 1	&kp LEFT	&kp UP	&kp DOWN	&kp RIGHT
+&kp N1	&kp TAB	&kp Q	&kp W	&kp E	&kp R	&kp T				&kp Y	&kp U	&kp I	&kp O	&kp P	&kp EQUAL
+&kp N2	&kp CAPS	&kp A	&kp S	&kp D	&kp F	&kp G				&kp H	&kp J	&kp K	&kp L	&kp SEMICOLON	&kp APOSTROPHE
+&kp N3	&kp LSHFT	&kp Z	&kp X	&kp C	&kp V	&kp B	&kp LA(LSHFT)		&kp LEFT_BRACKET	&kp N	&kp M	&kp COMMA	&kp DOT	&kp SLASH	&kp RSHFT
+&kp N4	&kp LCTRL	&kp LWIN	&mo_tog 3 3	&kp LALT	&mo_tog 2 2	&kp ENTER	&kp BACKSPACE		&kp DEL	&kp SPACE	&mo 1	&kp LEFT	&kp UP	&kp DOWN	&kp RIGHT
                      >;
               };
 
