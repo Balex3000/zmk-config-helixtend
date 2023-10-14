@@ -4,6 +4,7 @@
  * SPDX-License-Identifier: MIT
  *
  * helixtend - v1.2 - fix numpad layer
+ * helixtend - v1.3 - change places between numpad layer button and adjust_layer    
  */
 
 /* balex version 
@@ -52,7 +53,7 @@ As such, those are in use within the default layer at this time.*/
 //	Y	U	I	O	P	EQUAL	END				TAB	Q	W	E	R	T
 //	H	J	K	L	SEMICOLON	APOSTROPHE	BACKSLASH				CAPS	A	S	D	F	G
 //	N	M	COMMA	DOT	SLASH	RSHFT	UP	RIGHT_BRACKET		LA(LSHFT)	LSHFT	Z	X	C	V	B
-//	DEL	SPACE	mo_tog 1 1	PSCRN	RCTRL	LEFT	DOWN	RIGHT		GRAVE	LCTRL	LWIN	mo_tog 3 3	LALT	ENTER	BACKSPACE
+//	DEL	SPACE	mo_tog 1 1	PSCRN	RCTRL	LEFT	DOWN	RIGHT		GRAVE	LCTRL	LWIN	LALT	mo_tog 3 3	ENTER	BACKSPACE
 
                      label = "Qwerty";
                      bindings = <
@@ -60,7 +61,7 @@ As such, those are in use within the default layer at this time.*/
 &kp Y	&kp U	&kp I	&kp O	&kp P	&kp EQUAL	&kp END				&kp TAB	&kp Q	&kp W	&kp E	&kp R	&kp T
 &kp H	&kp J	&kp K	&kp L	&kp SEMICOLON	&kp APOSTROPHE	&kp BACKSLASH				&kp CAPS	&kp A	&kp S	&kp D	&kp F	&kp G
 &kp N	&kp M	&kp COMMA	&kp DOT	&kp SLASH	&kp RSHFT	&kp UP	&kp RIGHT_BRACKET		&kp LA(LSHFT)	&kp LSHFT	&kp Z	&kp X	&kp C	&kp V	&kp B
-&kp DEL	&kp SPACE	&mo_tog 1 1	&kp PSCRN	&kp RCTRL	&kp LEFT	&kp DOWN	&kp RIGHT		&kp GRAVE	&kp LCTRL	&kp LWIN	&mo_tog 3 3	&kp LALT	&kp ENTER	&kp BACKSPACE
+&kp DEL	&kp SPACE	&mo_tog 1 1	&kp PSCRN	&kp RCTRL	&kp LEFT	&kp DOWN	&kp RIGHT		&kp GRAVE	&kp LCTRL	&kp LWIN	&kp LALT	&mo_tog 3 3	&kp ENTER	&kp BACKSPACE
                      >;
               };
 
